@@ -1,0 +1,18 @@
+{
+  "name": "us-market-investment-copilot",
+  "version": "1.0.0",
+  "description": "Research, rank, and monitor liquid U.S. equities with evidence-backed fundamental, technical, catalyst, valuation, and portfolio-risk workflows.",
+  "author": {
+    "name": "Abdulmalik"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "US Market Investment Copilot",
+    "shortDescription": "Evidence-backed U.S. equity research and monitoring.",
+    "longDescription": "Scans liquid U.S. equities, analyzes companies and earnings, scores opportunities, builds risk-aware trade theses, and monitors invalidation conditions.",
+    "developerName": "Abdulmalik",
+    "category": "Finance",
+    "capabilities": ["Equity research", "Opportunity ranking", "Portfolio risk"],
+    "defaultPrompt": "Analyze the U.S. equity market and surface the strongest risk-adjusted opportunities for my configured horizon."
+  }
+}
