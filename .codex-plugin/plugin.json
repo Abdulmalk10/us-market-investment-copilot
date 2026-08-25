@@ -1,27 +1,48 @@
 {
   "name": "us-market-investment-copilot",
-  "version": "1.1.0",
-  "description": "Personal market and investment copilot for U.S. and Saudi equities with evidence-backed research, valuation, catalysts, technical context, risk management, and opportunity ranking.",
+  "version": "1.2.0",
+  "description": "Evidence-backed investment research workflows for U.S. and Saudi equities, including market regime, fundamentals, valuation, catalysts, technical context, opportunity ranking, and portfolio risk.",
   "author": {
     "name": "Abdulmalik"
   },
+  "homepage": "https://github.com/Abdulmalk10/us-market-investment-copilot",
   "repository": "https://github.com/Abdulmalk10/us-market-investment-copilot",
+  "keywords": [
+    "investing",
+    "equity-research",
+    "stocks",
+    "valuation",
+    "earnings",
+    "portfolio-risk",
+    "us-market",
+    "saudi-market"
+  ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Market Investment Copilot",
-    "shortDescription": "US & Saudi equity research and opportunity ranking.",
-    "longDescription": "Researches U.S. and Saudi equities, analyzes earnings and catalysts, evaluates valuation and technical context, ranks risk-adjusted opportunities, monitors thesis invalidation, and explains market drivers with source-backed evidence.",
+    "displayName": "US Market Investment Copilot",
+    "shortDescription": "Evidence-backed U.S. equity research and opportunity ranking.",
+    "longDescription": "Researches liquid U.S. equities and selected Saudi-market opportunities using current evidence, earnings and catalysts, valuation, technical context, market regime, portfolio risk, scenario analysis, and explicit thesis invalidation. Social-media ideas are treated as leads and independently verified before they influence a conclusion.",
     "developerName": "Abdulmalik",
     "category": "Finance",
     "capabilities": [
       "Equity research",
       "Market analysis",
       "Valuation",
+      "Earnings analysis",
       "Opportunity ranking",
       "Catalyst analysis",
       "Portfolio risk",
       "Saudi market monitoring"
     ],
-    "defaultPrompt": "Analyze the market and surface the strongest risk-adjusted stock opportunities for my configured horizon, clearly separating evidence, assumptions, catalysts, risks, entry logic, and invalidation conditions."
+    "websiteURL": "https://github.com/Abdulmalk10/us-market-investment-copilot",
+    "privacyPolicyURL": "https://github.com/Abdulmalk10/us-market-investment-copilot/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Abdulmalk10/us-market-investment-copilot/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Find and rank the strongest risk-adjusted U.S. stock opportunities for the next month.",
+      "Analyze a U.S. stock deeply and give me bull, base, and bear scenarios with entry logic and invalidation.",
+      "Explain what is driving the U.S. market today and which sectors have the strongest setup.",
+      "Compare several stocks and rank them by fundamentals, catalysts, valuation, technical setup, and risk.",
+      "Review my portfolio for concentration, correlated risks, weak theses, and the strongest incremental opportunity."
+    ]
   }
 }
