@@ -1,18 +1,27 @@
 {
   "name": "us-market-investment-copilot",
-  "version": "1.0.0",
-  "description": "Research, rank, and monitor liquid U.S. equities with evidence-backed fundamental, technical, catalyst, valuation, and portfolio-risk workflows.",
+  "version": "1.1.0",
+  "description": "Personal market and investment copilot for U.S. and Saudi equities with evidence-backed research, valuation, catalysts, technical context, risk management, and opportunity ranking.",
   "author": {
     "name": "Abdulmalik"
   },
+  "repository": "https://github.com/Abdulmalk10/us-market-investment-copilot",
   "skills": "./skills/",
   "interface": {
-    "displayName": "US Market Investment Copilot",
-    "shortDescription": "Evidence-backed U.S. equity research and monitoring.",
-    "longDescription": "Scans liquid U.S. equities, analyzes companies and earnings, scores opportunities, builds risk-aware trade theses, and monitors invalidation conditions.",
+    "displayName": "Market Investment Copilot",
+    "shortDescription": "US & Saudi equity research and opportunity ranking.",
+    "longDescription": "Researches U.S. and Saudi equities, analyzes earnings and catalysts, evaluates valuation and technical context, ranks risk-adjusted opportunities, monitors thesis invalidation, and explains market drivers with source-backed evidence.",
     "developerName": "Abdulmalik",
     "category": "Finance",
-    "capabilities": ["Equity research", "Opportunity ranking", "Portfolio risk"],
-    "defaultPrompt": "Analyze the U.S. equity market and surface the strongest risk-adjusted opportunities for my configured horizon."
+    "capabilities": [
+      "Equity research",
+      "Market analysis",
+      "Valuation",
+      "Opportunity ranking",
+      "Catalyst analysis",
+      "Portfolio risk",
+      "Saudi market monitoring"
+    ],
+    "defaultPrompt": "Analyze the market and surface the strongest risk-adjusted stock opportunities for my configured horizon, clearly separating evidence, assumptions, catalysts, risks, entry logic, and invalidation conditions."
   }
 }
